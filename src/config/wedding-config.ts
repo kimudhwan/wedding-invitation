@@ -13,7 +13,7 @@ interface GalleryConfig {
 export const weddingConfig = {
   // 메타 정보
   meta: {
-    title: "신랑 ❤️ 신부의 결혼식에 초대합니다",
+    title: "현수 ❤️ 마태의 결혼식에 초대합니다",
     description: "결혼식 초대장",
     ogImage: "/images/ha0h-1fsi-bqt3.jpg",
     noIndex: true,
@@ -24,8 +24,8 @@ export const weddingConfig = {
   main: {
     title: "Wedding Invitation",
     image: "/images/ha0h-1fsi-bqt3.jpg",
-    date: "2025년 12월 25일 토요일 12시 30분",
-    venue: "웨딩홀 이름"
+    date: "2026년 04월 25일 토요일 14시 30분",
+    venue: "가회동 성당"
   },
 
   // 소개글
@@ -46,7 +46,7 @@ export const weddingConfig = {
 
   // 장소 정보
   venue: {
-    name: "웨딩홀 이름",
+    name: "가회동 성당",
     address: "서울특별시 강남구 테헤란로 123\n웨딩홀 이름",
     tel: "02-1234-5678",
     naverMapId: "웨딩홀 이름", // 네이버 지도 검색용 장소명
