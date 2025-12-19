@@ -13,7 +13,7 @@ interface GalleryConfig {
 export const weddingConfig = {
   // 메타 정보
   meta: {
-    title: "현수 ❤️ 마태의 결혼식에 초대합니다",
+    title: "김대환 ❤️ 박지향의 결혼식에 초대합니다",
     description: "결혼식 초대장",
     ogImage: "/images/ha0h-1fsi-bqt3.jpg",
     noIndex: true,
@@ -24,8 +24,8 @@ export const weddingConfig = {
   main: {
     title: "Wedding Invitation",
     image: "/images/ha0h-1fsi-bqt3.jpg",
-    date: "2026년 04월 25일 토요일 14시 30분",
-    venue: "가회동 성당"
+    date: "2026년 04월 11일 토요일 15시 00분",
+    venue: "서울웨딩타워"
   },
 
   // 소개글
@@ -36,29 +36,29 @@ export const weddingConfig = {
 
   // 결혼식 일정
   date: {
-    year: 2025,
-    month: 12,
-    day: 25,
-    hour: 12,
-    minute: 30,
-    displayDate: "2025.12.25 SAT PM 12:30",
+    year: 2026,
+    month: 04,
+    day: 11,
+    hour: 15,
+    minute: 00,
+    displayDate: "2026.04.11 SAT PM 15:00",
   },
 
   // 장소 정보
   venue: {
-    name: "가회동 성당",
-    address: "서울특별시 강남구 테헤란로 123\n웨딩홀 이름",
-    tel: "02-1234-5678",
-    naverMapId: "웨딩홀 이름", // 네이버 지도 검색용 장소명
+    name: "서울웨딩타워",
+    address: "서울특별시 송파구 양재대로 932 가락몰 타워 2층\n웨딩홀 이름",
+    tel: "02-463-5000",
+    naverMapId: "서울웨딩타워", // 네이버 지도 검색용 장소명
     coordinates: {
       latitude: 37.5665,
       longitude: 126.9780,
     },
-    placeId: "123456789", // 네이버 지도 장소 ID
+    placeId: "38403565", // 네이버 지도 장소 ID
     mapZoom: "17", // 지도 줌 레벨
     mapNaverCoordinates: "14141300,4507203,15,0,0,0,dh", // 네이버 지도 길찾기 URL용 좌표 파라미터 (구 형식)
     transportation: {
-      subway: "지하철역 1번 출구에서 도보 5분",
+      subway: "3,8호선 가락시장역 2번 출구에서 5분거리",
       bus: "간선\n 101, 102, 103\n지선\n 1234, 5678",
     },
     parking: "건물 지하 주차장 이용 가능 (2시간 무료)",
